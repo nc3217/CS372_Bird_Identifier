@@ -36,10 +36,11 @@ pip install -r requirements.txt
 
 # 4. Run Sample_Classifier.py
 Now that the requirements have been installed, you can run the bird identifier by doing the following steps:
-1. Open the sample_classifier.py file in the src folder
-2. Replace the file path in the following line 'test_img = "/content/sample_bird.jpg"' with the file path to your bird image
-3. Run the file sample_classifier.py
-4. This will output the inputted image, the top 5 results for the predicted bird species, and the predicted probability for each species. 
+1. Download the bird_models Google Drive folder from the models directory to download the trained and fine-tuned EfficientNet model.
+2. Open the sample_classifier.py file in the src folder
+3. Replace the file path in the following line 'test_img = "/content/sample_bird.jpg"' with the file path to your bird image
+4. Run the file sample_classifier.py
+5. This will output the inputted image, the top 5 results for the predicted bird species, and the predicted probability for each species. 
 
   
 
