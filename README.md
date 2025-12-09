@@ -28,26 +28,27 @@ METRICS (TEST SET):
 - Recall         : 0.5685
 - Top-5 Accuracy : 0.8024
 
-
-EXAMPLE MISCLASSIFICATION
-- Image: /kaggle/input/inatbirds100k/birds_train_small/04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi/467d1d79-aa4c-4a3f-8ae8-4e537f34cf07.jpg
-- TRUE LABEL:      04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi
-- PREDICTED LABEL: 04576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis
-Top-5 Predictions:
-1. O4576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis 0.1296
-2. 04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi 0.1220
-3. 04409_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_falcinellus 0.1144
-4. 03647_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_virgo 0.0643
-5. 03646_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_paradiseus 0.0625
-
-
+Example Correct Classification
 <img width="1024" height="685" alt="image" src="https://github.com/user-attachments/assets/05e3acad-1d13-47ce-ae66-afb993e473b7" />
-🔎 Top Predictions:
+🔎 Top-5 Predictions:
 1. 03838_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Spinus_tristis — 0.9943
 2. 03809_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Carduelis_carduelis — 0.0017
 3. 03812_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Chloris_chloris — 0.0008
 4. 03836_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Spinus_psaltria — 0.0007
 5. 03815_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Coccothraustes_vespertinus — 0.0006
+
+
+Example Misclassification
+Image: <img width="275" height="273" alt="Screenshot 2025-12-09 at 2 53 20 PM" src="https://github.com/user-attachments/assets/1b80fbfc-6e3e-4ab6-a452-ccb67fc5f010" />
+TRUE LABEL:      03771_Animalia_Chordata_Aves_Passeriformes_Corvidae_Nucifraga_columbiana
+PREDICTED LABEL: 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis
+Top-5 Predictions:
+1. 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis 0.4891
+2. 03115_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_striatus 0.1458
+3. 03114_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_nisus 0.1039
+4. 03130_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Buteo_plagiatus 0.0567
+5. 04272_Animalia_Chordata_Aves_Passeriformes_Turdidae_Myadestes_townsendi 0.0387
+
 
 
 ## Individual Contributions
