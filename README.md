@@ -15,30 +15,30 @@ To set up this project, create a python environment. Then, install python depend
 ## Evaluation
 
 INFERENCE TIMING SUMMARY:
-  Total images: 41608, Time: 327.392s
-  Throughput: 127.09 img/s
-  Mean latency: 4.84 ms
-  Median latency: 4.73 ms
-  p95 latency: 5.44 ms
+- Total images: 41608, Time: 327.392s
+- Throughput: 127.09 img/s
+- Mean latency: 4.84 ms
+- Median latency: 4.73 ms
+- p95 latency: 5.44 ms
 
 METRICS (TEST SET):
-  Top-1 Accuracy : 0.5685
-  Macro F1       : 0.5650
-  Precision      : 0.5985
-  Recall         : 0.5685
-  Top-5 Accuracy : 0.8024
+- Top-1 Accuracy : 0.5685
+- Macro F1       : 0.5650
+- Precision      : 0.5985
+- Recall         : 0.5685
+- Top-5 Accuracy : 0.8024
 
 
 EXAMPLE MISCLASSIFICATION
-Image: /kaggle/input/inatbirds100k/birds_train_small/04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi/467d1d79-aa4c-4a3f-8ae8-4e537f34cf07.jpg
-TRUE LABEL:      04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi
-PREDICTED LABEL: 04576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis
+- Image: /kaggle/input/inatbirds100k/birds_train_small/04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi/467d1d79-aa4c-4a3f-8ae8-4e537f34cf07.jpg
+- TRUE LABEL:      04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi
+- PREDICTED LABEL: 04576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis
 Top-5 Predictions:
-   04576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis 0.1296
-   04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi 0.1220
-   04409_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_falcinellus 0.1144
-   03647_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_virgo 0.0643
-   03646_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_paradiseus 0.0625
+1. O4576_Animalia_Chordata_Aves_Suliformes_Phalacrocoracidae_Phalacrocorax_capensis 0.1296
+2. 04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi 0.1220
+3. 04409_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_falcinellus 0.1144
+4. 03647_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_virgo 0.0643
+5. 03646_Animalia_Chordata_Aves_Gruiformes_Gruidae_Anthropoides_paradiseus 0.0625
 
 
 <img width="1024" height="685" alt="image" src="https://github.com/user-attachments/assets/05e3acad-1d13-47ce-ae66-afb993e473b7" />
