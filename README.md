@@ -6,7 +6,7 @@ This project aims to assist bird watchers and researchers in identifying bird sp
 
 ## Quick Start
 
-To set up this project, create a python environment. Then, install python dependencies as indicated in the SETUP.md. Then, you can use the full notebooks in the notebooks folder or you can use train.py or evaluate.py in the src folder.
+To set up this project, create a Python environment. Then, install Python dependencies as indicated in the SETUP.md. You can then use the full notebooks in the notebooks folder, or you can use train.py and evaluate.py in the src folder.
 
 ## Video Links
 
