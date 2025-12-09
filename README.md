@@ -54,9 +54,9 @@ Example Misclassification<br>
 
 ## Individual Contributions
 
-Irene: Irene worked on much of the baseline modeling. She also worked on the fine-tuning for the EfficientNet model.
+Irene: Irene worked on loading and splitting the dataset, the random baseline model, fine-tuning the EfficientNet model, the evaluation metrics computations, and the image prediction function.
 
-Neeharika: Neeharika worked on the CLIP logistic regression baseline model, and she also worked on the inference/testing for the EfficientNet model.
+Neeharika: Neeharika worked on the CLIP logistic regression baseline model, the initial EfficientNet model, evaluating the EfficientNet model on the test data, and inference timing. 
 
 
 
