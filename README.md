@@ -40,9 +40,9 @@ Example Correct Classification
 
 Example Misclassification
 Image: <img width="275" height="273" alt="Screenshot 2025-12-09 at 2 53 20 PM" src="https://github.com/user-attachments/assets/1b80fbfc-6e3e-4ab6-a452-ccb67fc5f010" />
-TRUE LABEL:      03771_Animalia_Chordata_Aves_Passeriformes_Corvidae_Nucifraga_columbiana
-PREDICTED LABEL: 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis
-Top-5 Predictions:
+\nTRUE LABEL:      03771_Animalia_Chordata_Aves_Passeriformes_Corvidae_Nucifraga_columbiana
+\nPREDICTED LABEL: 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis
+\nTop-5 Predictions:
 1. 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis 0.4891
 2. 03115_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_striatus 0.1458
 3. 03114_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_nisus 0.1039
