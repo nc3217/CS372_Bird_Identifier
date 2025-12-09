@@ -1,0 +1,6 @@
+Link to Colab:
+
+https://colab.research.google.com/drive/1Tt01Wsg79M6KMKfMOtRvQRg4Y42hGGt0?usp=sharing
+
+Notes:
+- There is an error shown for the embeddings because we already ran the code to generate the embeddings, so we stopped it from running again.
