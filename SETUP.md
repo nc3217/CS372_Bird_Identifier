@@ -34,6 +34,12 @@ Run this line:
 pip install -r requirements.txt
 ```
 
+# 4. Run Predictory
+Now that the requirements have been installed, you can run the bird identifier by doing the following steps:
+1. Open the sample_classifier.py file in the src folder
+2. Replace the file path in the following line 'test_img = "/content/sample_bird.jpg"' with the file path to your bird image
+3. Run the file
+4. This will output the inputted image, the top 5 results for the predicted bird species, and the predicted probability for each species. 
 
   
 
