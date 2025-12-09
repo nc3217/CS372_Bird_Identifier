@@ -40,7 +40,7 @@ Input image: Goldfinch
 
 
 Example Misclassification<br>
-Image: <img width="275" height="273" alt="Screenshot 2025-12-09 at 2 53 20 PM" src="https://github.com/user-attachments/assets/1b80fbfc-6e3e-4ab6-a452-ccb67fc5f010" />
+<img width="275" height="273" alt="Screenshot 2025-12-09 at 2 53 20 PM" src="https://github.com/user-attachments/assets/1b80fbfc-6e3e-4ab6-a452-ccb67fc5f010" />
 <br>TRUE LABEL:      03771_Animalia_Chordata_Aves_Passeriformes_Corvidae_Nucifraga_columbiana
 <br>PREDICTED LABEL: 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis
 <br>Top-5 Predictions:
