@@ -9,7 +9,7 @@ This project aims to assist bird watchers and researchers in identifying bird sp
 To set up this project, create a Python environment. Then, install Python dependencies as indicated in the SETUP.md. You can then use the full notebooks in the notebooks directory, or you can use train.py and evaluate.py in the src directory. You must use the bird_models Google Drive folder linked in the models directory. You can run sample_classifier.py and replace the path in the file with your own image path to run the file! More detailed information can be found in the SETUP.md.
 
 ## Video Links
-
+Link to Demo Video: https://drive.google.com/file/d/1l_NId6u2RBb3jd6SCwjvYi2wuxcI4Ky-/view?usp=sharing
 
 
 ## Evaluation
