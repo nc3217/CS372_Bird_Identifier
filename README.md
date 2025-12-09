@@ -50,7 +50,9 @@ Example Misclassification<br>
 4. 03130_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Buteo_plagiatus 0.0567
 5. 04272_Animalia_Chordata_Aves_Passeriformes_Turdidae_Myadestes_townsendi 0.0387
 
+Analysis of Metrics
 
+Overall, the model had a testing accuracy of 0.5685, so the model was predicting around 56.85% of the testing data accurately. This would likely be higher with more epochs, but due to time and resource constraints, we implemented early stopping because the model was already much more accurate than our baselines. When considering the top 5 predictions of the model, the model's accuracy increased to 0.8024 (top-5 accuracy). The throughput was 127.09 img/s, and the mean latency was around 4.84 ms. From a more qualitative perspective, when we uploaded an image of an American Goldfinch, the model output Spinus tristis as the species (which is an American Goldfinch) with a probability of 0.9943. Also, when looking at examples of misclassifications, it is very clear why the model was unable to classify them. For instance, in the example above, the bird is very obscured and blends in with the background, so it makes sense why this was not classified correctly.
 
 ## Individual Contributions
 
