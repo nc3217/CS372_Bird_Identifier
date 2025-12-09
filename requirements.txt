@@ -1,1 +1,19 @@
+kagglehub
+os
+pandas
+sklearn
+numpy
+torch 
+transformers
+PIL
+pathlib
+tqdm
+joblib
+json
+math
+time
+albumentations
+albumentations.pytorch
+seaborn
+timm
 
