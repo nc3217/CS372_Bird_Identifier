@@ -29,6 +29,7 @@ METRICS (TEST SET):
 - Top-5 Accuracy : 0.8024
 
 Example Correct Classification
+Input image: Goldfinch
 <img width="1024" height="685" alt="image" src="https://github.com/user-attachments/assets/05e3acad-1d13-47ce-ae66-afb993e473b7" />
 🔎 Top-5 Predictions:
 1. 03838_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Spinus_tristis — 0.9943
@@ -38,7 +39,7 @@ Example Correct Classification
 5. 03815_Animalia_Chordata_Aves_Passeriformes_Fringillidae_Coccothraustes_vespertinus — 0.0006
 
 
-Example Misclassification
+Example Misclassification<br>
 Image: <img width="275" height="273" alt="Screenshot 2025-12-09 at 2 53 20 PM" src="https://github.com/user-attachments/assets/1b80fbfc-6e3e-4ab6-a452-ccb67fc5f010" />
 <br>TRUE LABEL:      03771_Animalia_Chordata_Aves_Passeriformes_Corvidae_Nucifraga_columbiana
 <br>PREDICTED LABEL: 03113_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_gentilis
