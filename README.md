@@ -10,6 +10,7 @@ To set up this project, create a Python environment. Then, install Python depend
 
 ## Video Links
 Link to Demo Video: https://drive.google.com/file/d/1l_NId6u2RBb3jd6SCwjvYi2wuxcI4Ky-/view?usp=sharing
+Link to Technical Walkthrough: https://drive.google.com/file/d/1TvwZf3KcMomVo-cy_pe4IR6i_fbvEKDw/view?usp=sharing
 
 
 ## Evaluation
